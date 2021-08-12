@@ -9,7 +9,7 @@ const Banner = styled.div `
         display: block;
         height: 100vh;
         width: 100%;
-        background-image: url('cover.jpg');
+        background-image: url('/img/cover.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -26,7 +26,7 @@ const TextWrapper = styled.div`
     color: white;
     div{
         display: flex;
-        justify-content: center;
+        justify-content: cexºnter;
         align-items: center;
         flex-direction: column;
     }
@@ -57,6 +57,43 @@ const MoreText = styled.div`
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+    }
+`;
+
+const SectionTwo = styled.section`
+    background-color: #21b2a6;
+    text-align: center;
+    padding: 10rem 0;
+    
+    div {
+        width: 66%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding: 1.35em 0;
+        color: #ffffff;
+        border-bottom: 2px solid #1d9c91;
+        text-transform: uppercase;
+        letter-spacing: 0.6rem;
+        margin: 0; 
+    }
+    
+    p {
+        text-transform: uppercase; color: #c8ece9; text-align: center; letter-spacing: 0.225em; font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        color: #ffffff;
+        border-bottom: 2px solid #1d9c91;
+        font-weight: 800;
+        letter-spacing: 0.225em;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+        margin-bottom: 5rem;
     }
 `;
 
